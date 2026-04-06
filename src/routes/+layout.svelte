@@ -32,6 +32,12 @@
 <QueryClientProvider client={queryClient}>
   <div class="min-h-screen bg-slate-50">
     <nav class="border-b bg-white">
+      <a href="/dashboard" class="text-slate-700">Dashboard</a>
+      <a href="/accounts" class="text-slate-700">Accounts</a>
+      <a href="/categories" class="text-slate-700">Categories</a>
+      <a href="/transactions" class="text-slate-700">Transactions</a>
+      <a href="/transfers" class="text-slate-700">Transfers</a>
+      <a href="/reports" class="text-slate-700">Reports</a>
       <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
       >
